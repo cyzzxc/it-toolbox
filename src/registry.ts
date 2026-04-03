@@ -691,6 +691,17 @@ export const toolRegistry: ToolMeta[] = [
   // ─── Phase 3: AI 增强工具 ────────────────────────────────────────────────────
 
   {
+    id: 'ai-docker-compose',
+    name: 'AI 生成 Docker Compose',
+    nameEn: 'AI Docker Compose Generator',
+    description: '从 docker run 命令或文档生成规范的 docker-compose.yml',
+    category: 'ai',
+    tags: ['ai', 'docker', 'compose', 'container', 'devops'],
+    keywords: ['Docker', 'Compose', '容器', 'Docker Run', 'DevOps'],
+    icon: 'Container',
+    requiresApi: true,
+  },
+  {
     id: 'ai-regex',
     name: 'AI 正则生成',
     nameEn: 'AI Regex Generator',
@@ -723,18 +734,6 @@ export const toolRegistry: ToolMeta[] = [
     icon: 'BookOpen',
     requiresApi: true,
   },
-  {
-    id: 'ai-code-review',
-    name: 'AI 代码 Review',
-    nameEn: 'AI Code Review',
-    description: 'AI 进行 Code Review，安全漏洞、性能、可读性三维分析',
-    category: 'ai',
-    tags: ['ai', 'code', 'review', 'security', 'performance'],
-    keywords: ['代码审查', '安全', '性能', '可读性'],
-    icon: 'GitPullRequest',
-    requiresApi: true,
-  },
-
   // ─── Phase 3.5: JSON&数据工具 ─────────────────────────────────────────────
 
   {

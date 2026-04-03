@@ -447,3 +447,44 @@ Rules:
     return c.json({ success: false, error: 'Failed to parse AI response' }, 500)
   }
 })
+
+aiRoute.post('/docker-compose', async (c) => {
+  const { input } = await c.req.json<{ input: string }>()
+  if (!input?.trim()) return c.json({ success: false, error: 'input is required' }, 400)
+  if (input.length > 4000) return c.json({ success: false, error: 'Input too long (max 4000 chars)' }, 400)
+
+  const messages = [
+    {
+      role: 'system',
+      content: `You are a Docker Compose expert. Generate a valid docker-compose.yml from docker run commands or service descriptions. Return ONLY a valid JSON object (no markdown, no extra text) with this structure:
+{
+  "compose": "the complete docker-compose.yml content as a string",
+  "explanation": "brief explanation in Chinese about the services and configuration"
+}
+Rules:
+- DO NOT include version field at the top (deprecated in modern compose)
+- Always set restart: always for all services
+- For volume mappings: use relative paths (./data, ./config, etc.), map to subdirectory of current directory
+- If only one volume needs mapping, use ./ (current directory) directly
+- DO NOT add any comments in the YAML
+- For port mappings: use random high ports (30000-65535) on the host side, e.g., "32768:80"
+- Use proper service names (lowercase, hyphens instead of underscores)
+- Include appropriate environment variables, volumes, ports, and networks
+- Generate clean, well-formatted YAML with 2-space indentation`
+    },
+    { role: 'user', content: `请根据以下内容生成 docker-compose.yml：\n\n${input}` }
+  ]
+
+  const result = await c.env.AI.run(MODEL as keyof AiModels, {
+    ...baseConfig,
+    messages,
+    response_format: { type: 'json_object' }
+  }) as AIResponse
+
+  try {
+    const parsed = parseJson(getContent(result))
+    return c.json({ success: true, data: parsed })
+  } catch {
+    return c.json({ success: false, error: 'Failed to parse AI response' }, 500)
+  }
+})
