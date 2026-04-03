@@ -700,7 +700,6 @@ export const toolRegistry: ToolMeta[] = [
     keywords: ['正则', '自然语言', '生成', '匹配'],
     icon: 'Sparkles',
     requiresApi: true,
-    isNew: true,
   },
   {
     id: 'ai-sql',
@@ -712,7 +711,6 @@ export const toolRegistry: ToolMeta[] = [
     keywords: ['数据库', '查询', '生成', 'select'],
     icon: 'Database',
     requiresApi: true,
-    isNew: true,
   },
   {
     id: 'ai-code-explain',
@@ -724,7 +722,6 @@ export const toolRegistry: ToolMeta[] = [
     keywords: ['代码', '解释', '分析', '理解'],
     icon: 'BookOpen',
     requiresApi: true,
-    isNew: true,
   },
   {
     id: 'ai-code-review',
@@ -736,7 +733,6 @@ export const toolRegistry: ToolMeta[] = [
     keywords: ['代码审查', '安全', '性能', '可读性'],
     icon: 'GitPullRequest',
     requiresApi: true,
-    isNew: true,
   },
 
   // ─── Phase 3.5: JSON&数据工具 ─────────────────────────────────────────────
@@ -750,7 +746,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['json', 'jsonpath', 'query', 'filter', 'extract'],
     keywords: ['JSONPath', '查询', '过滤', '提取', 'JSON'],
     icon: 'Search',
-    isNew: true,
   },
   {
     id: 'json-to-csv',
@@ -761,7 +756,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['json', 'csv', 'convert', 'transform', 'export'],
     keywords: ['JSON', 'CSV', '转换', '导出', '表格'],
     icon: 'Table',
-    isNew: true,
   },
 
   // ─── Phase 3.6: 数学&计算 ─────────────────────────────────────────────────
@@ -775,7 +769,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['math', 'calculator', 'expression', 'evaluate', 'formula'],
     keywords: ['数学', '计算', '表达式', '公式', '科学计算'],
     icon: 'Calculator',
-    isNew: true,
   },
 
   // ─── Phase 3.7: HTML&CSS工具 ──────────────────────────────────────────────
@@ -789,7 +782,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['html', 'preview', 'live', 'editor', 'sandbox'],
     keywords: ['HTML', '预览', '实时', '编辑器', '沙盒'],
     icon: 'Code',
-    isNew: true,
   },
 
   // ─── Phase 3.8: SEO工具 ───────────────────────────────────────────────────
@@ -803,7 +795,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['meta', 'seo', 'html', 'og', 'twitter'],
     keywords: ['Meta', 'SEO', '标签', 'Open Graph', 'Twitter Card'],
     icon: 'Tags',
-    isNew: true,
   },
 
   // ─── Phase 3.1: 图片&媒体 (8个) ────────────────────────────────────────────
@@ -817,7 +808,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['image', 'compress', 'jpeg', 'png', 'webp', 'optimize'],
     keywords: ['压缩', '图片优化', '减小体积'],
     icon: 'Minimize',
-    isNew: true,
   },
   {
     id: 'image-convert',
@@ -828,7 +818,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['image', 'convert', 'png', 'jpeg', 'webp', 'format'],
     keywords: ['格式转换', '图片', '批量'],
     icon: 'RefreshCw',
-    isNew: true,
   },
   {
     id: 'image-resize',
@@ -839,7 +828,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['image', 'resize', 'crop', 'scale', 'batch'],
     keywords: ['缩放', '裁剪', '调整尺寸'],
     icon: 'Crop',
-    isNew: true,
   },
   {
     id: 'svg-optimizer',
@@ -850,7 +838,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['svg', 'optimize', 'compress', 'minify', 'vector'],
     keywords: ['矢量', '优化', '压缩', 'svgo'],
     icon: 'Minimize2',
-    isNew: true,
   },
   {
     id: 'svg-to-data-uri',
@@ -861,7 +848,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['svg', 'data-uri', 'base64', 'inline', 'css', 'html'],
     keywords: ['内联', '转换', '嵌入'],
     icon: 'FileCode',
-    isNew: true,
   },
   {
     id: 'favicon-gen',
@@ -872,7 +858,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['favicon', 'icon', 'generate', 'png', 'ico', 'apple-touch'],
     keywords: ['图标', '网站图标', '浏览器图标'],
     icon: 'Globe',
-    isNew: true,
   },
   {
     id: 'exif-reader',
@@ -883,7 +868,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['exif', 'metadata', 'photo', 'gps', 'camera', 'jpeg'],
     keywords: ['元数据', '拍摄信息', '照片', '相机'],
     icon: 'Camera',
-    isNew: true,
   },
   {
     id: 'color-extractor',
@@ -894,7 +878,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['color', 'extract', 'palette', 'dominant', 'image', 'picker'],
     keywords: ['取色', '配色', '主色调', '颜色提取'],
     icon: 'Pipette',
-    isNew: true,
   },
 
   // ─── Phase 3.2: 开发规范&文档 (7个) ─────────────────────────────────────────
@@ -908,7 +891,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['gitignore', 'git', 'generate', 'template', 'node', 'python'],
     keywords: ['忽略文件', 'git', '模板'],
     icon: 'GitBranch',
-    isNew: true,
   },
   {
     id: 'license-gen',
@@ -919,7 +901,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['license', 'mit', 'apache', 'gpl', 'bsd', 'open source'],
     keywords: ['开源协议', '许可证', '版权'],
     icon: 'Scale',
-    isNew: true,
   },
   {
     id: 'readme-gen',
@@ -930,7 +911,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['readme', 'markdown', 'template', 'badge', 'documentation'],
     keywords: ['说明文档', '项目文档', '徽章'],
     icon: 'FileText',
-    isNew: true,
   },
   {
     id: 'conventional-commit',
@@ -941,7 +921,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['git', 'commit', 'conventional', 'message', 'changelog'],
     keywords: ['提交', 'commit message', 'git提交'],
     icon: 'GitCommit',
-    isNew: true,
   },
   {
     id: 'semver-calc',
@@ -952,7 +931,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['semver', 'version', 'semantic', 'npm', 'range'],
     keywords: ['语义版本', '版本号', 'npm版本'],
     icon: 'Tag',
-    isNew: true,
   },
   {
     id: 'openapi-viewer',
@@ -963,7 +941,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['openapi', 'swagger', 'api', 'docs', 'rest', 'yaml', 'json'],
     keywords: ['API文档', 'swagger', '接口文档'],
     icon: 'BookOpen',
-    isNew: true,
   },
   {
     id: 'json-schema-gen',
@@ -974,7 +951,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['json', 'schema', 'generate', 'validation', 'typescript'],
     keywords: ['模式推断', 'json验证', 'schema生成'],
     icon: 'FileJson',
-    isNew: true,
   },
 
   // ─── Phase 3.3: 单位换算 ───────────────────────────────────────────────────
@@ -989,7 +965,6 @@ export const toolRegistry: ToolMeta[] = [
     keywords: ['汇率', '货币', '换算', '美元', '人民币'],
     icon: 'Coins',
     requiresApi: true,
-    isNew: true,
   },
 
   // ─── Phase 3.4: 效率&协作 ─────────────────────────────────────────────────
@@ -1004,7 +979,6 @@ export const toolRegistry: ToolMeta[] = [
     keywords: ['API', 'HTTP', '请求', '测试', '接口'],
     icon: 'Send',
     requiresApi: true,
-    isNew: true,
   },
 
   // ─── Phase 3.5: 二维码&条形码 ─────────────────────────────────────────────
@@ -1018,7 +992,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['qrcode', 'qr', 'reader', 'scanner', 'decode'],
     keywords: ['二维码', '识别', '扫码', '解析'],
     icon: 'Scan',
-    isNew: true,
   },
 
   // ─── Phase 3.6: 数据生成&测试 ─────────────────────────────────────────────
@@ -1032,7 +1005,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['hash', 'verify', 'checksum', 'md5', 'sha256', 'integrity'],
     keywords: ['校验', '完整性', '文件', '哈希'],
     icon: 'FileCheck',
-    isNew: true,
   },
   {
     id: 'jwt-verifier',
@@ -1043,7 +1015,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['jwt', 'verify', 'signature', 'hmac', 'rsa', 'token'],
     keywords: ['验证', '签名', '令牌', '认证'],
     icon: 'ShieldCheck',
-    isNew: true,
   },
   {
     id: 'password-strength',
@@ -1054,7 +1025,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['password', 'strength', 'security', 'analyze', 'zxcvbn'],
     keywords: ['密码', '强度', '安全', '破解'],
     icon: 'Shield',
-    isNew: true,
   },
   {
     id: 'json-gen',
@@ -1065,7 +1035,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['json', 'generate', 'mock', 'random', 'schema', 'fake'],
     keywords: ['JSON', '生成', 'Mock', '测试数据', '随机'],
     icon: 'FileJson',
-    isNew: true,
   },
 
   // ─── Phase 3.7: 单位换算扩展 ───────────────────────────────────────────────
@@ -1079,7 +1048,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['unit', 'convert', 'length', 'weight', 'temperature', 'speed', 'storage'],
     keywords: ['单位', '换算', '长度', '重量', '温度', '速度'],
     icon: 'Ruler',
-    isNew: true,
   },
   {
     id: 'data-storage',
@@ -1090,7 +1058,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['data', 'storage', 'byte', 'bit', 'kb', 'mb', 'gb', 'tb', 'pb'],
     keywords: ['存储', '字节', '数据', '容量'],
     icon: 'HardDrive',
-    isNew: true,
   },
   {
     id: 'sql-gen',
@@ -1101,7 +1068,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['sql', 'generate', 'insert', 'test', 'data', 'mock'],
     keywords: ['SQL', '生成', 'INSERT', '测试数据', '数据库'],
     icon: 'Database',
-    isNew: true,
   },
   {
     id: 'regex-gen',
@@ -1112,7 +1078,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['regex', 'generate', 'pattern', 'infer', 'sample'],
     keywords: ['正则', '生成', '推断', '模式', '匹配'],
     icon: 'Regex',
-    isNew: true,
   },
   {
     id: 'color-space',
@@ -1123,7 +1088,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['color', 'rgb', 'hsl', 'hsv', 'hex', 'cmyk', 'convert'],
     keywords: ['颜色', '色彩', 'RGB', 'HSL', 'HEX', '转换'],
     icon: 'Palette',
-    isNew: true,
   },
   {
     id: 'epoch-formats',
@@ -1134,7 +1098,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['time', 'date', 'format', 'iso', 'rfc', 'timestamp', 'convert'],
     keywords: ['时间', '日期', '格式', '转换', 'ISO'],
     icon: 'Clock',
-    isNew: true,
   },
 
   // ─── Phase 3.8: 单位换算扩展(批次2) ─────────────────────────────────────────
@@ -1148,7 +1111,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['aspect', 'ratio', 'resolution', 'pixel', 'screen'],
     keywords: ['宽高比', '分辨率', '像素', '比例', '屏幕'],
     icon: 'RectangleHorizontal',
-    isNew: true,
   },
   {
     id: 'css-unit-convert',
@@ -1159,7 +1121,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['css', 'unit', 'px', 'rem', 'em', 'vw', 'vh', 'convert'],
     keywords: ['CSS', '单位', '像素', '换算', 'rem', 'em'],
     icon: 'Ruler',
-    isNew: true,
   },
   {
     id: 'roman-numeral',
@@ -1170,7 +1131,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['roman', 'numeral', 'convert', 'arabic'],
     keywords: ['罗马数字', '转换', '阿拉伯数字'],
     icon: 'Hash',
-    isNew: true,
   },
 
   // ─── Phase 3.9: 网络进阶 ───────────────────────────────────────────────────
@@ -1184,7 +1144,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['port', 'network', 'protocol', 'service', 'reference'],
     keywords: ['端口', '网络', '协议', '服务', 'TCP', 'UDP'],
     icon: 'Network',
-    isNew: true,
   },
   {
     id: 'email-validate',
@@ -1195,7 +1154,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['email', 'validate', 'verify', 'format', 'rfc5322'],
     keywords: ['邮箱', '验证', '格式', '电子邮件'],
     icon: 'Mail',
-    isNew: true,
   },
 
   // ─── Phase 3.10: 数字&数学 ─────────────────────────────────────────────────
@@ -1209,7 +1167,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['prime', 'number', 'factor', 'math', 'isPrime'],
     keywords: ['质数', '素数', '因数', '数学'],
     icon: 'Hash',
-    isNew: true,
   },
   {
     id: 'gcd-lcm',
@@ -1220,7 +1177,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['gcd', 'lcm', 'math', 'number', 'divisor', 'multiple'],
     keywords: ['最大公约数', '最小公倍数', '数学', '约分'],
     icon: 'Calculator',
-    isNew: true,
   },
 
   // ─── Phase 3.11: 网络进阶(批次2补充) ───────────────────────────────────────
@@ -1234,7 +1190,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['whois', 'domain', 'lookup', 'register', 'dns'],
     keywords: ['WHOIS', '域名', '查询', '注册', 'DNS'],
     icon: 'Search',
-    isNew: true,
   },
   {
     id: 'ssl-checker',
@@ -1245,7 +1200,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['ssl', 'tls', 'certificate', 'https', 'security'],
     keywords: ['SSL', '证书', 'HTTPS', '安全', '加密'],
     icon: 'Shield',
-    isNew: true,
   },
   {
     id: 'headers-check',
@@ -1256,7 +1210,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['http', 'headers', 'security', 'csp', 'hsts', 'xss'],
     keywords: ['HTTP', '安全头', 'Header', '安全', '检测'],
     icon: 'ShieldCheck',
-    isNew: true,
   },
 
   // ─── Phase 3.12: 数字&数学(批次3) ───────────────────────────────────────────
@@ -1270,7 +1223,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['float', 'ieee754', 'binary', 'visualize', 'number'],
     keywords: ['浮点数', 'IEEE754', '二进制', '可视化', '精度'],
     icon: 'Binary',
-    isNew: true,
   },
   {
     id: 'base-convert-ext',
@@ -1281,7 +1233,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['base', 'convert', 'radix', 'binary', 'hex', 'decimal'],
     keywords: ['进制', '转换', '二进制', '十六进制', '小数'],
     icon: 'Binary',
-    isNew: true,
   },
 
   // ─── Phase 3.13: JSON&数据工具扩展(批次3) ───────────────────────────────────
@@ -1295,7 +1246,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['json', 'table', 'view', 'sort', 'filter'],
     keywords: ['JSON', '表格', '视图', '排序', '过滤'],
     icon: 'Table',
-    isNew: true,
   },
   {
     id: 'json-merge',
@@ -1306,7 +1256,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['json', 'merge', 'deep', 'combine'],
     keywords: ['JSON', '合并', '深度合并', '对象合并'],
     icon: 'GitMerge',
-    isNew: true,
   },
   {
     id: 'json-schema-verify',
@@ -1317,7 +1266,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['json', 'schema', 'validate', 'ajv', 'verify'],
     keywords: ['JSON', 'Schema', '验证', '校验', 'ajv'],
     icon: 'FileCheck',
-    isNew: true,
   },
 
   // ─── Phase 3.14: HTML&CSS工具扩展(批次3) ───────────────────────────────────
@@ -1331,7 +1279,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['css', 'clip-path', 'shape', 'polygon', 'circle', 'ellipse'],
     keywords: ['CSS', 'clip-path', '裁剪', '多边形', '圆形'],
     icon: 'Scissors',
-    isNew: true,
   },
   {
     id: 'flexbox-gen',
@@ -1342,7 +1289,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['css', 'flexbox', 'flex', 'layout', 'generator'],
     keywords: ['CSS', 'Flexbox', '布局', '弹性盒子', '生成器'],
     icon: 'LayoutGrid',
-    isNew: true,
   },
 
   // ─── Phase 3.15: 二维码&条形码(批次3) ───────────────────────────────────────
@@ -1356,7 +1302,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['barcode', 'ean', 'code128', 'code39', 'generate', 'svg'],
     keywords: ['条形码', 'EAN', 'Code128', 'Code39', '生成'],
     icon: 'Barcode',
-    isNew: true,
   },
 
   // ─── Phase 4.1: AI增强工具扩展(批次3) ───────────────────────────────────────
@@ -1371,7 +1316,6 @@ export const toolRegistry: ToolMeta[] = [
     keywords: ['AI', 'JSON', 'Schema', '生成', '验证'],
     icon: 'Sparkles',
     requiresApi: true,
-    isNew: true,
   },
   {
     id: 'ai-commit-msg',
@@ -1383,7 +1327,6 @@ export const toolRegistry: ToolMeta[] = [
     keywords: ['AI', 'Git', '提交', 'Commit', 'Conventional'],
     icon: 'GitCommit',
     requiresApi: true,
-    isNew: true,
   },
 
   // ─── Phase 4.2: AI增强工具扩展(批次4) ───────────────────────────────────────
@@ -1398,7 +1341,6 @@ export const toolRegistry: ToolMeta[] = [
     keywords: ['提取', '结构化', 'JSON', '信息提取', '文本分析'],
     icon: 'FileSearch',
     requiresApi: true,
-    isNew: true,
   },
   {
     id: 'ai-translate',
@@ -1410,7 +1352,6 @@ export const toolRegistry: ToolMeta[] = [
     keywords: ['翻译', '多语言', '国际化', '文档翻译'],
     icon: 'Languages',
     requiresApi: true,
-    isNew: true,
   },
   {
     id: 'ai-error-explain',
@@ -1422,7 +1363,6 @@ export const toolRegistry: ToolMeta[] = [
     keywords: ['错误', '报错', '调试', '修复', '异常'],
     icon: 'Bug',
     requiresApi: true,
-    isNew: true,
   },
   {
     id: 'ai-naming',
@@ -1434,7 +1374,6 @@ export const toolRegistry: ToolMeta[] = [
     keywords: ['命名', '变量名', '函数名', '类名', '代码命名'],
     icon: 'CaseSensitive',
     requiresApi: true,
-    isNew: true,
   },
   {
     id: 'ai-mock-data',
@@ -1446,7 +1385,6 @@ export const toolRegistry: ToolMeta[] = [
     keywords: ['Mock', '测试数据', '假数据', 'JSON', '生成'],
     icon: 'Database',
     requiresApi: true,
-    isNew: true,
   },
   {
     id: 'ai-shell-cmd',
@@ -1458,7 +1396,6 @@ export const toolRegistry: ToolMeta[] = [
     keywords: ['Shell', '命令', 'Bash', 'PowerShell', 'CLI'],
     icon: 'Terminal',
     requiresApi: true,
-    isNew: true,
   },
 
   // ─── Phase 4.3: 效率&协作工具 ─────────────────────────────────────────────
@@ -1472,7 +1409,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['env', 'diff', 'compare', 'environment', 'variables'],
     keywords: ['环境变量', '对比', '差异', '配置'],
     icon: 'GitCompare',
-    isNew: true,
   },
   {
     id: 'changelog-gen',
@@ -1483,7 +1419,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['changelog', 'git', 'release', 'version', 'history'],
     keywords: ['变更日志', '版本历史', 'Git', '发布'],
     icon: 'FileText',
-    isNew: true,
   },
   {
     id: 'json-rpc-test',
@@ -1494,7 +1429,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['json-rpc', 'api', 'test', 'rpc', 'request'],
     keywords: ['JSON-RPC', 'API', '测试', 'RPC', '请求'],
     icon: 'Send',
-    isNew: true,
   },
 
   // ─── Phase 4.4: 前端工具扩展(批次5) ───────────────────────────────────────
@@ -1508,7 +1442,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['css', 'grid', 'layout', 'generator', 'visual'],
     keywords: ['网格', '布局', 'CSS Grid', '可视化'],
     icon: 'LayoutGrid',
-    isNew: true,
   },
   {
     id: 'icon-search',
@@ -1519,7 +1452,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['icon', 'search', 'lucide', 'heroicons', 'svg'],
     keywords: ['图标', '搜索', 'SVG', 'Icon'],
     icon: 'Search',
-    isNew: true,
   },
   {
     id: 'animation-gen',
@@ -1530,7 +1462,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['css', 'animation', 'keyframes', 'transition', 'generator'],
     keywords: ['动画', 'CSS', '关键帧', '过渡'],
     icon: 'Sparkles',
-    isNew: true,
   },
   {
     id: 'font-pair',
@@ -1541,7 +1472,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['font', 'google-fonts', 'typography', 'pairing', 'design'],
     keywords: ['字体', 'Google Fonts', '排版', '搭配'],
     icon: 'Type',
-    isNew: true,
   },
   {
     id: 'sitemap-gen',
@@ -1552,7 +1482,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['sitemap', 'seo', 'xml', 'website', 'generator'],
     keywords: ['站点地图', 'SEO', 'XML', '网站'],
     icon: 'Sitemap',
-    isNew: true,
   },
   {
     id: 'robots-gen',
@@ -1563,7 +1492,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['robots', 'seo', 'txt', 'website', 'generator'],
     keywords: ['robots.txt', 'SEO', '爬虫', '网站'],
     icon: 'Bot',
-    isNew: true,
   },
   {
     id: 'htaccess-gen',
@@ -1574,7 +1502,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['htaccess', 'apache', 'redirect', 'cache', 'security'],
     keywords: ['htaccess', 'Apache', '重定向', '缓存', '安全'],
     icon: 'FileCode',
-    isNew: true,
   },
   {
     id: 'webhook-test',
@@ -1586,7 +1513,6 @@ export const toolRegistry: ToolMeta[] = [
     keywords: ['Webhook', '测试', 'API', '调试'],
     icon: 'Webhook',
     requiresApi: true,
-    isNew: true,
   },
   {
     id: 'batch-process',
@@ -1597,7 +1523,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['batch', 'process', 'multiple', 'transform', 'workflow'],
     keywords: ['批量', '处理', '多工具', '工作流'],
     icon: 'Workflow',
-    isNew: true,
   },
   {
     id: 'tool-compare',
@@ -1608,7 +1533,6 @@ export const toolRegistry: ToolMeta[] = [
     tags: ['compare', 'multiple', 'tools', 'parallel', 'diff'],
     keywords: ['对比', '多工具', '并行', '比较'],
     icon: 'GitCompare',
-    isNew: true,
   },
 ]
 

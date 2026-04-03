@@ -10,5 +10,4 @@ export const meta: ToolMeta = {
   keywords: ['Webhook', '测试', 'API', '调试'],
   icon: 'Webhook',
   requiresApi: true,
-  isNew: true,
 }

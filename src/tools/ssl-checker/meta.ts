@@ -9,5 +9,4 @@ export const meta: ToolMeta = {
   tags: ['ssl', 'tls', 'certificate', 'https', 'security'],
   keywords: ['SSL', '证书', 'HTTPS', '安全', '加密'],
   icon: 'Shield',
-  isNew: true,
 }
