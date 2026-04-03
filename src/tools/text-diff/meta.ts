@@ -8,5 +8,5 @@ export const meta: ToolMeta = {
   category: 'text',
   tags: ['diff', '对比', '差异'],
   keywords: ['diff', 'compare', '对比', '差异'],
-  icon: 'git-compare',
+  icon: 'GitCompare',
 }

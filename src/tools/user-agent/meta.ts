@@ -8,5 +8,5 @@ export const meta: ToolMeta = {
   category: 'network',
   tags: ['ua', 'user-agent', '浏览器'],
   keywords: ['user-agent', 'ua', 'browser', 'parser'],
-  icon: 'monitor',
+  icon: 'Monitor',
 }

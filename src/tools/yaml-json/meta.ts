@@ -8,5 +8,5 @@ export const meta: ToolMeta = {
   category: 'format',
   tags: ['yaml', 'json', '转换', '格式化'],
   keywords: ['yaml', 'json', 'convert', '转换'],
-  icon: 'file-code',
+  icon: 'FileCode',
 }

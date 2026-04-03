@@ -8,5 +8,5 @@ export const meta: ToolMeta = {
   category: 'encoding',
   tags: ['rot13', '凯撒', '加密'],
   keywords: ['rot13', 'caesar', 'cipher', '凯撒密码'],
-  icon: 'lock',
+  icon: 'Lock',
 }

@@ -8,5 +8,5 @@ export const meta: ToolMeta = {
   category: 'text',
   tags: ['文本', '转换', '处理'],
   keywords: ['text', 'transform', '转换', '处理'],
-  icon: 'text',
+  icon: 'Text',
 }

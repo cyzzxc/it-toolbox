@@ -8,5 +8,5 @@ export const meta: ToolMeta = {
   category: 'generator',
   tags: ['objectid', 'mongodb', 'id'],
   keywords: ['objectid', 'mongodb', 'id', '唯一标识'],
-  icon: 'database',
+  icon: 'Database',
 }

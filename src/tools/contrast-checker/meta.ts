@@ -8,5 +8,5 @@ export const meta: ToolMeta = {
   category: 'color',
   tags: ['颜色', '对比度', 'wcag', '无障碍'],
   keywords: ['contrast', 'wcag', 'accessibility', '对比度', '无障碍'],
-  icon: 'eye',
+  icon: 'Eye',
 }

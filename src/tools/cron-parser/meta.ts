@@ -8,5 +8,5 @@ export const meta: ToolMeta = {
   category: 'text',
   tags: ['cron', '定时', '表达式'],
   keywords: ['cron', 'schedule', '定时任务'],
-  icon: 'clock',
+  icon: 'Clock',
 }

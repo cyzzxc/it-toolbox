@@ -8,5 +8,5 @@ export const meta: ToolMeta = {
   category: 'encoding',
   tags: ['ascii', '编码', '字符'],
   keywords: ['ascii', 'table', '编码', '字符'],
-  icon: 'table',
+  icon: 'Table',
 }
