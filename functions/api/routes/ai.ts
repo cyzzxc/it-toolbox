@@ -467,7 +467,7 @@ Rules:
 - For volume mappings: use relative paths (./data, ./config, etc.), map to subdirectory of current directory
 - If only one volume needs mapping, use ./ (current directory) directly
 - DO NOT add any comments in the YAML
-- For port mappings: use random high ports (30000-65535) on the host side, e.g., "32768:80"
+- For port mappings: use {{RANDOM_PORT}} as placeholder for host port (e.g., "{{RANDOM_PORT}}:80"), you MUST use different placeholder for each port
 - Use proper service names (lowercase, hyphens instead of underscores)
 - Include appropriate environment variables, volumes, ports, and networks
 - Generate clean, well-formatted YAML with 2-space indentation`
@@ -482,7 +482,19 @@ Rules:
   }) as AIResponse
 
   try {
-    const parsed = parseJson(getContent(result))
+    const parsed = parseJson(getContent(result)) as { compose?: string; explanation?: string }
+    // 替换随机端口占位符
+    if (parsed.compose) {
+      const usedPorts = new Set<number>()
+      parsed.compose = parsed.compose.replace(/\{\{RANDOM_PORT\}\}/g, () => {
+        let port: number
+        do {
+          port = Math.floor(Math.random() * (65535 - 30000 + 1)) + 30000
+        } while (usedPorts.has(port))
+        usedPorts.add(port)
+        return port.toString()
+      })
+    }
     return c.json({ success: true, data: parsed })
   } catch {
     return c.json({ success: false, error: 'Failed to parse AI response' }, 500)
