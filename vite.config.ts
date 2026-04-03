@@ -175,7 +175,8 @@ export default defineConfig({
           'color-vendor': ['chroma-js'],
           'datetime-vendor': ['dayjs'],
           'text-vendor': ['diff', 'fuse.js'],
-          'svg-vendor': ['svgo']
+          'svg-vendor': ['svgo'],
+          'codemirror-vendor': ['codemirror', '@codemirror/lang-python', '@codemirror/language', '@codemirror/state', '@codemirror/commands', '@codemirror/view', '@lezer/highlight'],
         }
       }
     }
